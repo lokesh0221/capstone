@@ -101,24 +101,6 @@ The backend is a FastAPI application with MongoDB integration.
 - Swagger UI: [http://localhost:8000/docs](http://localhost:8000/docs)
 - ReDoc: [http://localhost:8000/redoc](http://localhost:8000/redoc)
 
-### Example Endpoints
-- `GET /` — Welcome message
-- `POST /items/` — Create a new item
-- `GET /items/` — List all items
-- `GET /items/{item_id}` — Get a specific item
-- `PUT /items/{item_id}` — Update an item
-- `DELETE /items/{item_id}` — Delete an item
-
-#### Example Item Schema
-```json
-{
-  "name": "Sample Item",
-  "description": "This is a sample item",
-  "quantity": 1
-}
-```
-
----
 
 ## License
 
